@@ -1,6 +1,9 @@
 package com.gamedb.trie;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Fuzzy prefix search: returns completions even when the prefix contains
@@ -22,10 +25,10 @@ import java.util.*;
  */
 public class FuzzySearch {
 
-    private final com.gamedb.trie.Trie trie;
+    private final Trie trie;
     private static final int MAX_EDITS = 1;
 
-    public FuzzySearch(com.gamedb.trie.Trie trie) {
+    public FuzzySearch(Trie trie) {
         this.trie = trie;
     }
 
@@ -71,7 +74,7 @@ public class FuzzySearch {
         char expected = prefix.charAt(depth);
 
         // 1. Exact match — no edit consumed
-        com.gamedb.trie.TrieNode exactChild = node.children.get(expected);
+        TrieNode exactChild = node.children.get(expected);
         if (exactChild != null) {
             dfs(exactChild, prefix, depth + 1, editsLeft, out);
         }
