@@ -1,4 +1,4 @@
-package com.gamedb.trie;
+package gamedb.trie;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package com.gamedb.data;
+package gamedb.data;
 
-import com.gamedb.trie.Trie;
+import gamedb.trie.Trie;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

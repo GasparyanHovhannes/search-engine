@@ -1,4 +1,4 @@
-package com.gamedb.trie;
+package gamedb.trie;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -183,5 +183,5 @@ public class Trie {
     /**
      * Return the root (for testing / benchmarking).
      */
-    public com.gamedb.trie.TrieNode getRoot() { return root; }
+    public TrieNode getRoot() { return root; }
 }
