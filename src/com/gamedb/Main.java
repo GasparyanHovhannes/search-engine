@@ -1,9 +1,9 @@
-package gamedb;
+package com.gamedb;
 
-import gamedb.data.GameDataLoader;
-import gamedb.trie.Trie;
-import gamedb.trie.TrieNode;
-import gamedb.ui.SearchUI;
+import com.gamedb.data.GameDataLoader;
+import com.gamedb.trie.Trie;
+import com.gamedb.trie.TrieNode;
+import com.gamedb.ui.SearchUI;
 
 import javax.swing.*;
 import java.util.ArrayList;

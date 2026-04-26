@@ -1,9 +1,9 @@
-package gamedb.ui;
+package com.gamedb.ui;
 
-import gamedb.data.Benchmark;
-import gamedb.data.GameDataLoader;
-import gamedb.trie.FuzzySearch;
-import gamedb.trie.Trie;
+import com.gamedb.data.Benchmark;
+import com.gamedb.data.GameDataLoader;
+import com.gamedb.trie.FuzzySearch;
+import com.gamedb.trie.Trie;
 
 import javax.swing.*;
 import javax.swing.border.CompoundBorder;

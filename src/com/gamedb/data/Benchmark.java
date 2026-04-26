@@ -1,6 +1,6 @@
-package gamedb.data;
+package com.gamedb.data;
 
-import gamedb.trie.Trie;
+import com.gamedb.trie.Trie;
 
 import java.util.List;
 import java.util.stream.Collectors;
